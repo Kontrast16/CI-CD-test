@@ -9,3 +9,6 @@ func GetMessage() string {
 func PrintHello() {
 	fmt.Println(GetMessage())
 }
+
+func main() {
+}
