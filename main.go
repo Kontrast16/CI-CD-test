@@ -11,4 +11,5 @@ func PrintHello() {
 }
 
 func main() {
+	PrintHello()
 }
