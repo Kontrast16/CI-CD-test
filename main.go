@@ -1,7 +1,11 @@
 package main
 
-func main(){
+import "fmt"
 
-println("Я переписанный сынок")
+func GetMessage() string {
+	return "Hello"
+}
 
+func PrintHello() {
+	fmt.Println(GetMessage())
 }
